@@ -900,7 +900,7 @@ var BattlePokemon = (function() {
 		if (this.ability === ability.id) {
 			return false;
 		}
-		if (ability.id === 'Multitype' || ability.id === 'Illusion' || this.ability === 'Multitype') {
+		if (ability.id === 'multitype' || ability.id === 'illusion' || this.ability === 'Multitype') {
 			return false;
 		}
 		this.ability = ability.id;
